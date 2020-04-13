@@ -9,14 +9,14 @@ const authIndexPage = (props) => (
 );
 
 authIndexPage.getInitialProps = context => {
-  console.log(context);
+  // console.log('context', context);
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => resolve({ appName: 'Super App (Auth)' }), 1000);
   });
 
-  promise
-    .then((result) => console.log('Promise -> result', result))
-    .catch((error) => console.log('Promise -> error', error));
+  // promise
+  //   .then((result) => console.log('Promise -> result', result))
+  //   .catch((error) => console.log('Promise -> error', error));
 
   return promise;
 };
