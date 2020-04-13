@@ -1,0 +1,26 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaidenDilan/nextjs.git"
+  },
+  "author": "Raiden Dilan <raiden18@me.com> (https://www.raidendilan.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaidenDilan/nextjs/issues"
+  },
+  "homepage": "https://github.com/RaidenDilan/nextjs#readme",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
